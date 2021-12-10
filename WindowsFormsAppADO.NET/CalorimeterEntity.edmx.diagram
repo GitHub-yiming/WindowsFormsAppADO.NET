@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="37bd4560583640739b0884907b10acb8" Name="Diagram1">
+        <EntityTypeShape EntityType="Calorimeter1Model.CalorimeterTable1" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.Cost_Schedule" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.NumberofLayers" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.Table_Numbers1" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.User_balance" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.User_data1" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.User_payment1" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.Table_NumberTest" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.Unit_pricess" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Calorimeter1Model.AdvancedView" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="Calorimeter1Model.FK_CalorimeterTable1_Table_Numbers1" ManuallyRouted="false" />
+        <AssociationConnector Association="Calorimeter1Model.FK_Table_Numbers1_NumberofLayers" ManuallyRouted="false" />
+        <AssociationConnector Association="Calorimeter1Model.FK_User_data1_NumberofLayers" ManuallyRouted="false" />
+        <AssociationConnector Association="Calorimeter1Model.FK_Table_Numbers1_Table_Numbers1" ManuallyRouted="false" />
+        <AssociationConnector Association="Calorimeter1Model.FK_User_data1_Table_Numbers1" ManuallyRouted="false" />
+        <AssociationConnector Association="Calorimeter1Model.FK_User_payment1_Table_Numbers1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
